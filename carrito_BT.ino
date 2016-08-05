@@ -1,3 +1,15 @@
+/*********************************
+ **  sumobots Fetec 2016       **
+ * *******************************
+ * 
+ * Firmware hecho para el control de un sumobot o carrito con bluetooth
+ * utilizando el driver L298N, HC-05 o hc-06 y arduino uno
+ * 
+ * Hecho por Yeffri J Salazar.
+ * 
+ */
+
+
 #include <SoftwareSerial.h>
 SoftwareSerial BT(2,3);//rx, tx
 
