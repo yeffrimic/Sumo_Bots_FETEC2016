@@ -84,7 +84,7 @@ if(BT.available()>0){
     giraDerecha();
     break;
     case 'w':
-    BT.println("motor 2 atras");
+    BT.println("adelante");
     adelante();
     break;
     default:
